@@ -1,0 +1,129 @@
+{
+  "message": {
+    "validation": {
+      "required": "{{name}} là mục bắt buộc nhập !",
+      "email": "Vui lòng nhập đúng định dạng E-mail !",
+      "min": "{{name}} là mục yêu cầu tối thiểu {{min}} kí tự !",
+      "max": "{{name}} chỉ được phép nhập tối đa {{max}} kí tự !",
+      "password": "{{target}} không khớp với {{source}}",
+      "start_date": "Vui lòng nhập ngày bắt đầu nhỏ hơn ngày kết thúc !",
+      "end_date": "Vui lòng nhập ngày kết thúc lớn hơn ngày bắt đầu !"
+    },
+    "server_error": "Đã có lỗi sảy ra. Vui lòng thử lại !"
+  },
+  "role_mapping": {
+    "0": "Staff",
+    "1": "Administrator"
+  },
+  "account_status_mapping": {
+    "0": "offline",
+    "1": "online"
+  },
+  "gender_mapping": {
+    "0": "Nữ",
+    "1": "Nam"
+  },
+  "is_login_first_time_mapping": {
+    "1": "Chưa kích hoạt",
+    "0": "Đã kích họat"
+  },
+  "category_mapping": {
+    "1": "Outsource",
+    "2": "Product",
+    "0": "Khác"
+  },
+  "status_mapping": {
+    "1": "Đang hoạt động",
+    "0": "Đã đóng"
+  },
+  "mode_mapping": {
+    "1": "Công khai",
+    "0": "Bảo mật"
+  },
+  "status_label_mapping": {
+    "0": "new",
+    "1": "doing",
+    "2": "done",
+    "3": "complete",
+    "4": "pending",
+    "5": "reject"
+  },
+  "status_color_mapping": {
+    "0": "#ea5455",
+    "1": "#ff9f43",
+    "2": "#28c76f",
+    "3": "#00cfe8",
+    "4": "#82868b",
+    "5": "#4b4b4b"
+  },
+  "file_type_mapping": {
+    "0": "#ea5455",
+    "1": "#ff9f43",
+    "2": "#28c76f",
+    "3": "#00cfe8",
+    "4": "#82868b",
+    "5": "#4b4b4b"
+  },
+  "key_label_mapping": {
+    "taskTitle": "Tiêu đề",
+    "startDate": "Ngày bắt đầu",
+    "endDate": "Ngày kết thúc",
+    "estimate": "Thời gian ước tính",
+    "progress": "Tiến độ",
+    "categories": "Phân loại",
+    "labels": "Nhãn",
+    "priorities": "Độ ưu tiên",
+    "members": "Phân công cho",
+    "document": "Tài liệu",
+    "about": "Chi tiết",
+    "subTitle": "Tiêu đề",
+    "module": "Phạm vi",
+    "actual": "Thời gian thực tế",
+    "status": "Trạng thái",
+    "owners": "Người phụ trách",
+    "point": "Điểm thưởng"
+  },
+  "progress_color_mapping": {
+    "0": "danger",
+    "5": "danger",
+    "10": "danger",
+    "15": "danger",
+    "20": "danger",
+    "25": "danger",
+    "30": "warning",
+    "35": "warning",
+    "40": "warning",
+    "45": "warning",
+    "50": "warning",
+    "55": "info",
+    "60": "info",
+    "65": "info",
+    "70": "info",
+    "75": "info",
+    "80": "info",
+    "85": "success",
+    "90": "success",
+    "95": "success",
+    "100": "success"
+  },
+  "best_employee_mapping": {
+    "0": "🥇",
+    "1": "🥈",
+    "2": "🥉"
+  },
+  "category_delete_mapping": {
+    "project": "dự án",
+    "account": "tài khoản",
+    "sprint": "giai đoạn",
+    "subtask": "công việc phụ",
+    "task": "công việc",
+    "file": "file"
+  },
+  "category_delete_url_mapping": {
+    "project": "/projects/delete",
+    "account": "/accounts/delete",
+    "sprint": "/sprints/delete",
+    "subtask": "/sub-tasks/delete",
+    "file": "/files/delete"
+  }
+}

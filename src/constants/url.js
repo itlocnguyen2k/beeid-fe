@@ -1,0 +1,9 @@
+export const LOGIN_URL = "/login";
+export const VERIFY_LOGIN_CODE_URL = "/verify-login-code";
+export const RESET_PASSWORD_URL = "/reset-password";
+export const VERIFY_PASSWORD_CODE_URL = "/verify-password-code";
+export const HOME = "/admin";
+export const CHANGE_PASSWORD_FIRST_TIME_URL = "/change-password-first-time";
+export const ACCOUNTS_LIST_URL = "/admin/accounts";
+export const PROJECTS_LIST_URL = "/admin/projects";
+export const SPRINTS_LIST_URL = "/admin/sprints";
